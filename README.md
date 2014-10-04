@@ -7,7 +7,7 @@
 
 ## インストール方法
 
-1. どこか適当な場所にダウンロードします
+1. どこか適当な場所にダウンロードします (Download ZIPを押す、もしくはGitがわかればcloneする)
 2. URL欄に chrome://extensions と入れてください。拡張インストール画面が開きます
 3. 右上の "Developer Mode" にチェックを入れます
 4. "Load Unpacked Extension..." ボタンを押します
