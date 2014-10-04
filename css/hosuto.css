@@ -1,0 +1,24 @@
+div.hosuto_container {
+	width:800px;
+	height:auto;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+div.hosuto_container img {
+	width:100%;
+	height:auto;
+}
+div.hosuto_container input {
+	position:absolute;
+	left:3px;
+	top:13px;
+	display:none;
+}
+
+div.hosuto_container:hover {
+	
+}
+div.hosuto_container:hover input {
+	display:block;
+}

@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name" : "ホスト",
+  "version" : "1.0",
+  "description" : "黒塗りの高級車で四人組のホストとの旅を楽しめる拡張。サファリには対応していません。",
+  "browser_action": {
+      "default_title": "Hosuto",
+      "default_icon": "icon128.png",
+      "default_popup": "index.html"
+  },
+  "background": {
+  },
+  "web_accessible_resources": [
+    "img/*",
+    "css/*"
+  ],
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js" : [
+      	"src/scriptaculous/prototype.js",
+      	"src/scriptaculous/effects.js",
+      	"src/scriptaculous/dragdrop.js",
+      	"src/hosuto.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "permissions" : ["contextMenus","tabs"]
+  ,
+  "icons" : {
+    "128" : "icon128.png",
+    "48" : "icon48.png",
+    "32" : "icon32.png"
+  }
+}
