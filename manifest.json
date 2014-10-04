@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
-  "name" : "ホスト",
+  "name" : "__MSG_extName__",
   "version" : "1.0",
-  "description" : "黒塗りの高級車で四人組のホストとの旅を楽しめる拡張。サファリには対応していません。",
+  "description" : "__MSG_extDescription__",
+  "default_locale": "ja",
   "browser_action": {
       "default_title": "Hosuto",
       "default_icon": "icon128.png",
