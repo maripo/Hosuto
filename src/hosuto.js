@@ -1,10 +1,11 @@
 var Hosuto = function (index) {
-	imgSrc = Hosuto.IMAGE_PREFIX + index + "." + Hosuto.IMAGE_EXT;
-	img = document.createElement("IMG");
+	var imgSrc = Hosuto.IMAGE_PREFIX + index + "." + Hosuto.IMAGE_EXT;
+	var img = document.createElement("IMG");
 	img.src = chrome.extension.getURL(imgSrc);
 	
 	this.div = document.createElement("DIV");
 	this.div.style.position = "absolute";
+	this.div.style.top = document.body.scrollTop + "px";
 	this.div.style.zIndex = 9999;
 	this.div.appendChild(img);
 	this.div.className = "hosuto_container";
