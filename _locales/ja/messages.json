@@ -7,5 +7,8 @@
 	},
 	"extDescription": {
 		"message": "お好きなサイトのお好きな場所に、FFXVのお兄さん達の乗ったオープンカーを召喚できます!"
+	},
+	"flipHorizontally": {
+		"message": "左右反転"
 	}
 }

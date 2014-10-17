@@ -1,9 +1,10 @@
-# ホスト拡張
+# FFXVクソコラメーカー for Google Chrome
 
 * キャプチャを撮るだけで簡単にクソコラが作れます
 * 高級車気分が味わえます
 * 一人で動画を見ていて寂しくなったときになんとなく賑やかになります
 * サファリには対応していません
+* インストールはこちらから [FFXV Collage Maker - Chrome Web Store](https://chrome.google.com/webstore/detail/ffxv%E3%82%AF%E3%82%BD%E3%82%B3%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC/dcpffaaocpjbahaojhoopjndfpgnafni)
 
 ![サンプル1](img/sample1.jpg)
 

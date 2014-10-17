@@ -1,6 +1,7 @@
-var Hosuto = function (index) {
+var Hosuto = function (index, flip) {
 	var imgSrc = Hosuto.IMAGE_PREFIX + index + "." + Hosuto.IMAGE_EXT;
 	var img = document.createElement("IMG");
+	img.style.WebkitTransform = (flip)?"scaleX(-1)":"";
 	img.src = chrome.extension.getURL(imgSrc);
 	
 	this.div = document.createElement("DIV");
@@ -52,5 +53,5 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		document.getElementsByTagName("HEAD")[0].appendChild(css);
 	}
 	window.setTimeout();
-	new Hosuto(hosutoIndex).add(document.body);
+	new Hosuto(hosutoIndex, request.flip).add(document.body);
 });
